@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="4.56;url=\22bca29\home\html\index.html">
+    <title>Redirecting...</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 100vh;
+            gap: 10px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+        }
+        .progress{
+            width: 25%;
+            height: 20px;
+            background-color: rgb(88, 87, 87);
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+            margin-left: 535px;
+        }
+        .bar{
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 10%;
+            background-color:rgb(255, 255, 255);
+            animation: progress 9s linear forwards;
+            position: relative;
+        }
+        @keyframes progress {
+            0%{
+                width: 10%;
+            }
+            10%{
+                width: 25%;
+            }
+            25%{
+                width: 50%;
+            }
+            50%{
+                width: 100%;
+            }
+            100%{
+                width: 100%;
+            }
+        }
+        .video{
+            width: 100%;
+            height: 100%;  
+        }
+        .video video{
+            width: 100%;
+            height: 100%;
+        }
+        .allp{
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: antiquewhite;
+            height: 100%;
+            width: 100%;
+            color: aqua;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        h1{
+            align-items: center;
+            justify-content: center;
+            margin-left: 610px;
+        }
+    </style>
+</head>
+<body>
+    <div class="allp">
+        <h1>Loading...</h1><br>
+         <div class="progress">
+          <div class="bar">
+          </div>
+        </div>
+    </div>
+    <div class="video">
+        <video autoplay loop muted plays-inline class="video" >
+            <source src="/22bca29/image/lo.mp4" type="video/mp4">
+        </video>
+        <audio autoplay loop muted plays-inline class="audio" >
+            <source src="/22bca29/image/lo.mp3" type="audio/mp3">
+        </audio>
+    </div>
+</body>
+</html>

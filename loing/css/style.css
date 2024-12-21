@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/22bca29/image/l.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.login{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    transform: .5s;
+}
+.login:hover{
+    border: 100px solid #0ef;
+    box-shadow: 0 0 20px #0ef,inset 0 0 20px #0ef;
+}
+h2{
+    font-size: 2em;
+    text-align: center;
+    color: antiquewhite;
+}
+.input{
+    position: relative;
+    width: 320px;
+    margin: 30px 0;
+}
+.input input{
+    width: 100%;
+    height: 35px;
+    background: transparent;
+    border: 2px solid #197dff;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(143, 238, 221);
+    padding: 0 10px 0 35px;
+}
+.input input::placeholder {
+    color: rgba(255, 255,255, 0.3);
+    transition: 0.4s;
+}
+.input .icon{
+    position: absolute;
+    left: 10px;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 40px;
+}
+.forget-pass{
+    margin: -15px 0 15px;
+}
+.forget-pass a{
+    color: #fff;
+    font-size: .9em;
+    text-decoration: none;
+}
+.forget-pass a :hover{
+    text-decoration: underline;
+
+}
+button{
+    position: relative;
+    width: 100%;
+    height: 32px;
+    background: #147072;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.4s;
+
+}
+.register{
+    font-size: .9em;
+    text-align: center;
+    margin: 25px 0;
+}
+.register p{
+    color: #fff;
+
+}
+.register p a{
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+} 
+.logo{
+    width: 70px;
+    height: 60px;
+    margin-bottom: 600px;
+    margin-right: 900px;
+}
+button:hover{
+    background: transparent;
+    border: 4px solid rgb(179, 70, 70);
+}
+input:hover{
+        border: 4px solid rgb(18, 224, 228);
+    
+}
+.logo p{
+    color: #0ef;
+    font-size: 50px;
+    margin-top: -670px;
+    margin-left: 100px;
+    display: block;
+    white-space: nowrap;
+}
+
+
+
+
+
